@@ -1,0 +1,16 @@
+# Lab Notes: TryHackMe - Web Application Security
+
+**Date:** July 2026  
+**Focus:** Web Infrastructure, Databases, and Access Vulnerabilities  
+
+## 1. Core Concepts Learned
+* **Web App Architecture:**  
+* **Vulnerability Type:** Insecure Direct Objects Reference-IDOR
+
+## 2. Key Takeaways & Methodology
+* **Authentication Failures:** Discovered how failing to throttle or slow down login attempts allows attackers to use automated brute-force tools to guess passwords.
+* **Cryptographic Failures:** Learned that transmitting usernames or passwords over HTTP instead of HTTPS passes data in cleartext, allowing attackers to intercept it mid-transit.
+
+## 3. Practical Practice (IDOR Exploitation)
+* **Insecure Direct Object Reference (IDOR):** Participated in a lab environment where I learned about Broken Access Control.
+    I observed how a user could manipulate or browse identifiers to view or modify unauthorized or sensitive account settings belonging to other users.
