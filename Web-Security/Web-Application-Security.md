@@ -8,6 +8,7 @@
 * **Vulnerability Type:** Insecure Direct Objects Reference-IDOR
 
 **The login problem:** Sometimes soem websites don't limit the number of times you can login. A hacker can try thousands of passwords in a second until they hit the right one.
+
 **HTTP:** If i type my password to login, anyone investigating the network can view it. HTTP is naked!
 
 ## 2. What I did:
